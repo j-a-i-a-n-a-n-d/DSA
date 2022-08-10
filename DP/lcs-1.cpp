@@ -19,3 +19,13 @@ int main()
     cout << lcs(s1, s2, s1.length() - 1, s2.length() - 1);
     return 0;
 }
+
+/*
+variation in LCS
+1.) longest palindromic sequence
+    logic : reverse the string and find lcs
+2.) shortes super sequence
+    logic : ek  geeks
+                gefks   answer (6)
+3.) printing lcs print at every point
+*/

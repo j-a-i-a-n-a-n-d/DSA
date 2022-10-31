@@ -1,0 +1,32 @@
+a complete binary tree 
+cbt ==> ya toh 0 bacche ya toh 2 bacche 
+each and every level fully filled 
+except the last level
+nodes are always added from the left
+
+
+
+complete binary tree vs the perfect binary tree
+
+=> complete binary tree me last level chodke baaki sab m 0 ya 2bacche
+=> perfect binary tree ya toh 2 bacche ya toh 0 hr level me 
+
+                  x
+                 / \
+                x   x
+               / \ / \
+              x  xx   x
+              perfect binary tree 
+
+
+insetion in a complete binary tree 
+
+consider an array of 6 elements we will start our indexing from i+1
+hence the elements in the array will be 5
+
+some important locations(indices where we will find elements )
+
+Node => ith index
+Left Child => 2*i index 
+Right Child => (2*i + 1)index
+parent will be found on => (i/2)index
